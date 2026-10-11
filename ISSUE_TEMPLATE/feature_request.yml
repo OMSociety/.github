@@ -13,7 +13,7 @@ body:
   - type: textarea
     id: idea
     attributes:
-      label: 你设想新功能
+      label: 你设想的新功能
     validations:
       required: false
 

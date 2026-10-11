@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        先看一眼本仓库 README 里列的已知边界。
+        先看一眼本仓库 README 里列的已知边界——列在其中的不算 bug。
         安全相关问题请**不要**在这里开 issue，走本仓库 SECURITY.md 写的私密渠道。
 
   - type: input

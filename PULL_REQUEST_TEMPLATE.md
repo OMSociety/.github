@@ -1,10 +1,11 @@
-## PR 存在哪些改动
+## 这个 PR 改了什么
 
-<!-- 一两句说清"改了哪一面的什么"。关联的 issue 用 Fixes #NN 写。 -->
+<!-- 关联的 issue 用 Fixes #NN 写。 -->
 
 ## 自查
 
 - [ ] 本仓库 README / AGENTS.md 里写的测试与类型检查本地全绿
+- [ ] 没有改版本号（version bump 单独提交）
 - [ ] 没有引入 GPL / 无证 / MPL 依赖
 
 ## 需要 Reviewer 注意的地方
