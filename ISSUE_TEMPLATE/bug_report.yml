@@ -1,0 +1,40 @@
+name: Bug report
+description: 出了不符合预期的行为
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        先看一眼本仓库 README 里列的已知边界——「平台本身的行为」不是 bug。
+        安全相关问题请**不要**在这里开 issue，走本仓库 SECURITY.md 写的私密渠道。
+
+  - type: input
+    id: version
+    attributes:
+      label: 版本
+      description: 出问题的版本号（插件版本 / 软件版本 / commit 前 7 位均可）
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 发生了什么
+      description: 实际看到的结果。有报错就把原文贴全。
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 你期望的结果
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: 复现步骤
+      description: 越具体越好：从什么状态开始、做了什么操作。
+    validations:
+      required: true
